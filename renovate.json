@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "description": "Disable special versions",
+      "allowedVersions": "!/^(?i).*[-_\\.](Alpha|Beta|RC|M|EA|Snap|snapshot|jboss|atlassian)[-_\\.]?[0-9]?.*$/",
+      "matchPackageNames": [
+        "*"
+      ]
+    }
+  ]
+}
